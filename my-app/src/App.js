@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Videos</h1>
+        <h1>Art Videos</h1>
         {data.map((video) => (
           <div key={video.id}>
             <h2>{video.name}</h2>
